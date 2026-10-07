@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Hub - Notes</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fb;
+        }
+
+        header {
+            background-color: white;
+            padding: 18px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2563eb;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-left: 25px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #2563eb;
+        }
+
+        .notes {
+            padding: 55px 50px;
+            text-align: center;
+        }
+
+        .notes h1 {
+            color: #1e3a8a;
+            margin-bottom: 10px;
+        }
+
+        .notes > p {
+            color: #666;
+            margin-bottom: 35px;
+        }
+
+        .notes-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .note-card {
+            background-color: white;
+            width: 260px;
+            padding: 30px 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+        }
+
+        .note-card h2 {
+            color: #2563eb;
+            margin-bottom: 15px;
+        }
+
+        .note-card p {
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Study Hub</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="subjects.html">Subjects</a>
+        <a href="notes.html">Notes</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="notes">
+
+    <h1>Study Notes</h1>
+
+    <p>Access useful notes and study materials for your subjects.</p>
+
+    <div class="notes-container">
+
+        <div class="note-card">
+            <h2>Java</h2>
+            <p>Java programming notes and important concepts.</p>
+            <a href="#" class="download-btn">Download PDF</a>
+        </div>
+
+        <div class="note-card">
+            <h2>Python</h2>
+            <p>Python programming notes for easy learning.</p>
+            <a href="#" class="download-btn">Download PDF</a>
+        </div>
+
+        <div class="note-card">
+            <h2>DBMS</h2>
+            <p>Database management and SQL study notes.</p>
+            <a href="#" class="download-btn">Download PDF</a>
+        </div>
+
+        <div class="note-card">
+            <h2>Web Development</h2>
+            <p>HTML and CSS notes for web development.</p>
+            <a href="#" class="download-btn">Download PDF</a>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Study Hub | Learn • Practice • Succeed</p>
+</footer>
+
+</body>
+</html>

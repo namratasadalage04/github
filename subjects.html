@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Hub - Subjects</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fb;
+        }
+
+        header {
+            background-color: white;
+            padding: 18px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2563eb;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-left: 25px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #2563eb;
+        }
+
+        .subjects {
+            padding: 55px 50px;
+            text-align: center;
+        }
+
+        .subjects h1 {
+            color: #1e3a8a;
+            margin-bottom: 10px;
+        }
+
+        .subjects > p {
+            color: #666;
+            margin-bottom: 35px;
+        }
+
+        .subject-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .subject-card {
+            background-color: white;
+            width: 280px;
+            padding: 30px 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+        }
+
+        .subject-card .icon {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .subject-card h2 {
+            color: #2563eb;
+            margin-bottom: 12px;
+        }
+
+        .subject-card p {
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .view-btn {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .view-btn:hover {
+            background-color: #1d4ed8;
+        }
+
+        footer {
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Study Hub</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="subjects.html">Subjects</a>
+        <a href="notes.html">Notes</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="subjects">
+
+    <h1>Choose Your Subject</h1>
+
+    <p>Select a subject to access notes and study materials.</p>
+
+    <div class="subject-container">
+
+        <div class="subject-card">
+            <div class="icon">☕</div>
+            <h2>Java</h2>
+            <p>Learn Java programming, concepts and important topics.</p>
+            <a href="notes.html" class="view-btn">View Subject</a>
+        </div>
+
+        <div class="subject-card">
+            <div class="icon">🐍</div>
+            <h2>Python</h2>
+            <p>Learn Python programming from basics to advanced concepts.</p>
+            <a href="notes.html" class="view-btn">View Subject</a>
+        </div>
+
+        <div class="subject-card">
+            <div class="icon">🗄️</div>
+            <h2>DBMS</h2>
+            <p>Study database concepts, SQL and database management.</p>
+            <a href="notes.html" class="view-btn">View Subject</a>
+        </div>
+
+        <div class="subject-card">
+            <div class="icon">🌐</div>
+            <h2>Web Development</h2>
+            <p>Learn HTML, CSS and other web development concepts.</p>
+            <a href="notes.html" class="view-btn">View Subject</a>
+        </div>
+
+        <div class="subject-card">
+            <div class="icon">📊</div>
+            <h2>Data Structures</h2>
+            <p>Learn arrays, stacks, queues, linked lists and more.</p>
+            <a href="notes.html" class="view-btn">View Subject</a>
+        </div>
+
+        <div class="subject-card">
+            <div class="icon">🖥️</div>
+            <h2>Operating System</h2>
+            <p>Learn processes, memory management, files and OS concepts.</p>
+            <a href="notes.html" class="view-btn">View Subject</a>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Study Hub | Learn • Practice • Succeed</p>
+</footer>
+
+</body>
+</html>
